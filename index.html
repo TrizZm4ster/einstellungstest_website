@@ -1,58 +1,78 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Einstellungstests</title>
-<style>
-:root{--bg:#F5F1EA;--line:#E3DACB;--pri:#3F5F52;--pri-d:#324D42;--clay:#C8745A;--ink:#2B2F2C;--mut:#6E736E}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.6}
-header{background:#FBF9F5;border-bottom:1px solid var(--line);padding:18px 20px;color:var(--pri);font-weight:650;font-size:1.1rem}
-main{max-width:700px;margin:0 auto;padding:32px 20px 48px}
-h1{font-size:1.9rem;letter-spacing:-.02em;margin:0 0 24px}
-h2{font-size:1.05rem;font-weight:650;color:var(--clay);margin:30px 0 8px;line-height:1.4}
-ul{list-style:none;margin:0;padding:0}
-li{border-bottom:1px solid var(--line)}
-a{display:block;padding:10px 0;color:var(--pri);text-decoration:none;font-weight:600}
-a:hover{color:var(--pri-d);text-decoration:underline}
-footer{text-align:center;color:var(--mut);font-size:.82rem;padding:0 0 30px}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Einstellungstests</title>
+  <style>
+    :root { --bg:#F5F1EA; --line:#E3DACB; --green:#3F5F52; --clay:#C8745A; --ink:#2B2F2C; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif; line-height:1.6; }
+    header { background:#FBF9F5; border-bottom:1px solid var(--line); padding:18px 20px; color:var(--green); font-weight:650; font-size:1.1rem; }
+    main { max-width:740px; margin:0 auto; padding:32px 20px 56px; }
+    h1 { font-size:1.9rem; letter-spacing:-.02em; margin:0 0 26px; }
+    h2 { font-size:1.05rem; font-weight:650; color:var(--clay); margin:30px 0 8px; line-height:1.4; }
+    ul { list-style:none; margin:0; padding:0; }
+    li { border-bottom:1px solid var(--line); }
+    a { display:block; padding:10px 0; color:var(--green); text-decoration:none; font-weight:600; }
+    a:hover { text-decoration:underline; }
+    a:focus-visible { outline:2px solid var(--green); outline-offset:3px; border-radius:2px; }
+  </style>
 </head>
 <body>
 <header>Eignungstest</header>
 <main>
-<h1>Einstellungstests</h1>
-<h2>Technik, Handwerk, Bau, Elektro, Metall, Kfz, Informatik</h2>
-<ul>
-<li><a href="technik_test1.html">Test 1</a></li>
-<li><a href="technik_test2.html">Test 2</a></li>
-<li><a href="technik_test3.html">Test 3</a></li>
-</ul>
-<h2>Naturwissenschaften, Labor, Chemie, Biologie, Physik</h2>
-<ul>
-<li><a href="natur_test1.html">Test 1</a></li>
-<li><a href="natur_test2.html">Test 2</a></li>
-<li><a href="natur_test3.html">Test 3</a></li>
-</ul>
-<h2>Kaufmännisch, Büro, Handel, Bank, Versicherung, Logistik, Gastronomie, Hotel, Tourismus</h2>
-<ul>
-<li><a href="kaufm_test1.html">Test 1</a></li>
-<li><a href="kaufm_test2.html">Test 2</a></li>
-<li><a href="kaufm_test3.html">Test 3</a></li>
-</ul>
-<h2>Gesundheit, Pflege, Medizin, Soziales, Erziehung</h2>
-<ul>
-<li><a href="gesundheit_test1.html">Test 1</a></li>
-<li><a href="gesundheit_test2.html">Test 2</a></li>
-<li><a href="gesundheit_test3.html">Test 3</a></li>
-</ul>
-<h2>Verwaltung, Öffentlicher Dienst, Polizei, Zoll, Feuerwehr</h2>
-<ul>
-<li><a href="verwaltung_test1.html">Test 1</a></li>
-<li><a href="verwaltung_test2.html">Test 2</a></li>
-<li><a href="verwaltung_test3.html">Test 3</a></li>
-</ul>
+  <h1>Einstellungstests</h1>
+  <section>
+    <h2>Allgemeine Einstellungstests</h2>
+    <ul>
+      <li><a href="allgemein_test1.html">Test 1</a></li>
+      <li><a href="allgemein_test2.html">Test 2</a></li>
+      <li><a href="allgemein_test3.html">Test 3</a></li>
+      <li><a href="allgemein_test4.html">Test 4</a></li>
+      <li><a href="allgemein_test5.html">Test 5</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Technik und räumliches Denken</h2>
+    <ul>
+      <li><a href="technik_test1.html">Test 1</a></li>
+      <li><a href="technik_test2.html">Test 2</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Kaufmännisches Rechnen und Wirtschaft</h2>
+    <ul>
+      <li><a href="kaufm_test1.html">Test 1</a></li>
+      <li><a href="kaufm_test2.html">Test 2</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Informatik und logisches Denken</h2>
+    <ul>
+      <li><a href="informatik_test1.html">Test 1</a></li>
+      <li><a href="informatik_test2.html">Test 2</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Naturwissenschaftliches Verständnis</h2>
+    <ul>
+      <li><a href="natur_test1.html">Test 1</a></li>
+      <li><a href="natur_test2.html">Test 2</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Verwaltung und sprachliches Verständnis</h2>
+    <ul>
+      <li><a href="verwaltung_test1.html">Test 1</a></li>
+      <li><a href="verwaltung_test2.html">Test 2</a></li>
+    </ul>
+  </section>
 </main>
-<footer>Alle Daten bleiben auf diesem Gerät. Es werden keine Ergebnisse übertragen.</footer>
 </body>
 </html>
